@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+}
+
+
+
+body {
+    padding-top: 3.5rem;
+    
+}
+
+@media (max-width: 640px) {
+  body {
+    padding-top: 9rem;
+  }
+}
+
+.admin-page {
+  padding-top: 1rem; 
+}
+
+.twilio-bg-white {
+  background-color: #F5F5F5;
+}
+
+.navy {
+  background-color: #001f3f;
+}
